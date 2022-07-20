@@ -8,6 +8,11 @@ console.log(a);
 var b:boolean = true;
 console.log(b);
 
+
+export interface sample{
+    id:number;
+    name?:string;
+}
 //Array in typeScript Examples
 interface Arr{
     [index:number] : number;
