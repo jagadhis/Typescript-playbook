@@ -34,8 +34,8 @@ var Hello:Arr = {
     rollno:2,
     subject:"Typescript"
 }
-console.log(Hello)
+
 
 console.log(examples)
-
+console.log(Hello)
 
