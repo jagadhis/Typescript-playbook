@@ -15,14 +15,27 @@ interface Arr{
  id:number;
  name:string;
  rollno:number;
+ subject:string;
    
 }
 
 var examples:Arr  = {
     id:0,
     name:"jagadhis",
-    rollno:1
+    rollno:1,
+    subject:"Javascript"
 
 }
 
+
+var Hello:Arr = {
+    id:1,
+    name:"Ram",
+    rollno:2,
+    subject:"Typescript"
+}
+console.log(Hello)
+
 console.log(examples)
+
+
