@@ -5,6 +5,8 @@ console.log(message);
 var a:number = 27
 console.log(a);
 
+
+//Array in typeScript Examples
 interface Arr{
     [index:number] : number;
    
