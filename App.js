@@ -1,3 +1,4 @@
 var message = "Hello World";
 console.log(message);
-//# sourceMappingURL=App.js.map
+var a = 10;
+console.log(a);
