@@ -9,18 +9,20 @@ var b:boolean = true;
 console.log(b);
 
 
-export interface sample{
-    id:number;
-    name?:string;
-}
+
 //Array in typeScript Examples
 interface Arr{
-    [index:number] : number;
+ id:number;
+ name:string;
+ rollno:number;
    
 }
 
 var examples:Arr  = {
-    100:10
+    id:0,
+    name:"jagadhis",
+    rollno:1
+
 }
 
 console.log(examples)
