@@ -9,6 +9,10 @@ var b:boolean = true;
 console.log(b);
 
 
+function Add(a:number,b:number){
+    return a+b;
+}
+console.log(Add(10,20))
 
 //Array in typeScript Examples
 interface Arr{
